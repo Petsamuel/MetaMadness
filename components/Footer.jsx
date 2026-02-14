@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 
-import styles from "../styles";
-import { socials } from "../constants";
-import { footerVariants } from "../utils/motion";
+import styles from '../styles';
+import { socials } from '../constants';
+import { footerVariants } from '../utils/motion';
 
 const Footer = () => (
   <motion.footer
@@ -29,8 +29,8 @@ const Footer = () => (
             className="w-[24px] h-[24px] object-contain"
           />
           <span className="font-normal text-[16px] text-white">
-            {" "}
-            ENTER THE METAVERSE{" "}
+            {' '}
+            ENTER THE METAVERSE{' '}
           </span>
         </button>
       </div>
